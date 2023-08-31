@@ -1,0 +1,428 @@
+{
+  "intents":[
+    {
+      "tag":"greeting",
+      "patterns":["hello","hi","hey","wakeup","HAVAI","Hii"
+      ],
+      "responses":["hello sir","always for you sir","hello","how are you sir"
+
+      ]
+},
+      {
+      "tag":"okay",
+      "patterns":["roger that", "affirmative", "all clear", "got it", "copy that","okay", "ok", "kk"
+],
+      "responses":["acknowledged", "clear", "received", "understood", "noted","Got it", "understood", "alright", "cool", "sure thing"
+]
+      },
+{
+      "tag":"no",
+      "patterns":["no", "nope", "nah","negative", "cancel", "stop", "hold on", "wait"
+],
+      "responses":["sorry to hear that", "too bad", "OK", "understood", "got it","understood", "stopped", "cancelled", "holding", "waiting"
+]
+},
+{
+      "tag":"thank you",
+      "patterns":["thank you", "thanks", "thank you very much","much appreciated", "grateful", "I appreciate it", "cheers", "many thanks"
+],
+      "responses":["you're welcome", "no problem", "my pleasure", "glad to help", "anytime","you're welcome", "no problem", "my pleasure", "glad to help", "anytime"
+]
+},
+{
+      "tag":"sorry",
+      "patterns":["sorry","my apologies", "I apologize", "forgive me", "pardon me", "sorry about that"
+],
+      "responses":["no worries", "it's okay", "don't worry about it", "it's alright", "not a problem","no worries", "it's okay", "don't worry about it", "it's alright", "not a problem"
+]
+},
+
+
+{
+      "tag":"yes",
+      "patterns":["sure", "definitely", "absolutely", "for sure", "without a doubt","yes", "yep", "yeah"
+],
+      "responses":["great", "fantastic", "excellent", "good to know", "awesome","great", "excellent", "awesome", "that's good to hear", "OK"
+]
+},
+
+{
+      "tag":"bye",
+      "patterns":["bye bye","see you later ","goodbye","sleep","exit"
+      ],
+      "responses":["bye","see you later ","sleeping","it will be nice to meet you again","good bye sir"
+      ]
+
+  },
+  {
+      "tag":"health",
+      "patterns":["how are you","are you fine","are you good","are you aleright","how's you"
+      ],
+      "responses":["fine sir","perfect sir ","cool sir","i am fine sir ","good sir"
+      ]
+
+  },
+  {
+      "tag":"Identity",
+      "patterns":["your name","what is your name ","who are you","what is you"
+      ],
+      "responses":["HAV-AI ","my name is HAVAI sir","I am HAVAI an Personal AI assistant","I Am HAVAI an AI Assistant "
+      ]
+
+  },
+  {
+      "tag":"time",
+      "patterns":["What is time","Tell me time ","what is time HAVAI","what's the time","tel me Time"
+      ],
+      "responses":["time"
+      ]
+  },
+  {
+      "tag":"date",
+      "patterns":["what is Date","aaj tarikh kya hai ","Tareekh","tell the date"
+      ],
+      "responses":["date"
+      ]
+
+  },
+  {
+      "tag":"day",
+      "patterns":["what is Day","aaj din kya hai ","din","tell the day"
+      ],
+      "responses":["day"
+      ]
+
+  },
+  {
+      "tag":"wikipedia",
+      "patterns":["who is","about ","what is ","Tell me about","wikipedia","give me information about","Information"
+      ],
+      "responses":["wikipedia"
+      ]
+
+  },
+  {
+      "tag":"google",
+      "patterns":["google","search","google search","search about","search Image "
+      ],
+      "responses":["google"
+      ]
+
+  },
+{
+      "tag": "Flu",
+      "patterns": [
+          "stuffy nose",
+          "sudden fever",
+          "body aches",
+          "muscle aches",
+          "Flu",
+          "vomiting",
+          "diarrhea"
+      ],
+      "responses": [
+          "The symptoms you are describing may be indicative of the flu. It's important to see a doctor for a proper diagnosis and to receive the appropriate treatment.",
+          "It sounds like you may be experiencing symptoms of the flu. To get an accurate diagnosis, it's best to see a doctor.",
+          "Greetings! It appears you may be experiencing symptoms of the flu. It is important to consult a doctor for proper diagnosis and treatment.",
+          "Hello! The symptoms you've mentioned could be associated with the flu. Seeking medical attention is crucial for an accurate diagnosis and proper treatment.",
+          "Hi there! From the symptoms you've described, it seems you may have the flu. Visiting a doctor is the best way to get an accurate diagnosis and receive the appropriate treatment."
+      ]
+  },
+  {
+      "tag": "Common Cold",
+      "patterns": [
+        "sneezing",
+        "sore throat",
+        "Runny nose",
+        "Common Cold"    
+      ],
+      "responses": [
+          "The symptoms you are describing may be indicative of a common cold. It's important to see a doctor to receive a proper diagnosis and the appropriate treatment.",
+          "It sounds like you may be experiencing symptoms of a common cold. To get an accurate diagnosis, it's best to see a doctor.",
+          "Greetings! The symptoms you've described could be associated with the common cold. Consult a doctor for an accurate diagnosis and proper treatment.",
+          "Hello! It seems that you may be experiencing symptoms of a common cold. Seeking medical attention is the best way to get an accurate diagnosis and receive the appropriate treatment.",
+          "Hi there! Based on your symptoms, you could have a common cold. Visiting a doctor is crucial for a proper diagnosis and effective treatment."
+      ]
+ },
+  {
+      "tag": "Arthritis",
+      "patterns": [
+      "Joint pain",
+      "Arthritis",
+      "pain in joints",
+      "Limited range of motion"
+  ],
+  "responses": [
+      "These symptoms are commonly seen in individuals with arthritis. It is important to consult a doctor for proper diagnosis.",
+      "Hello! If you are experiencing joint pain, stiffness, swelling, or limited range of motion, it is important to consider the possibility of arthritis and seek medical attention.",
+      "Hi there! Are you experiencing joint pain, stiffness, swelling, or limited range of motion? These symptoms could be indicative of arthritis and it is important to seek medical attention for proper diagnosis."
+     ]
+  },
+  {
+   "tag": "Asthma",
+      "patterns": [
+      "Chest tightness", 
+      "shortness of breath",
+      "Chest tightness",
+      "shortness of breath",
+      "Asthma"    
+  ],
+  "responses": [
+      "These symptoms are commonly seen in individuals with asthma. It is important to consult a doctor for proper diagnosis.",
+      "Hi there! Are you experiencing symptoms like wheezing, shortness of breath, chest tightness, or frequent coughing? These  could be indicative of asthma and it is important to seek medical attention.",
+      "Greetings! If you are experiencing wheezing, shortness of breath, chest tightness, or frequent coughing, it is important to consider the possibility of asthma and seek medical attention for proper diagnosis."
+     ]
+  },
+  {
+   "tag": "Hypertension",
+      "patterns": [     
+      "dizzy",
+      "feeling dizzy",
+      "having hhigh blood preessure",
+      "nosebleeds",
+      "high blood pressure",
+      "hypertension"
+  ],
+  "responses": [
+      "It seems like you may be suffering from Hypertension (high blood pressure).",
+      "High blood pressure can cause headaches, dizziness, and nosebleeds.",
+      "Please see a doctor for proper diagnosis and treatment.",
+      "If you have been experiencing these symptoms, you should have your blood pressure checked."
+     ]
+  },
+ {
+  "tag":"Back pain",
+"patterns":[
+"backache",	
+"difficulty moving",
+"spasms",
+"Back pain",
+"back is paining",
+"lower pain",
+"upper pain"
+ ],
+   "responses":[
+"You may be experiencing symptoms of back pain.",
+"It seems like you have lower or upper back pain.",
+"You may have backache, which can be due to stiffness or muscle spasms."
+     ]
+ },
+{
+"tag":"Pneumonia",
+"patterns":[	
+"rapid breathing",
+"pneumonia"
+],
+"responses":[
+"The symptoms you mentioned indicate that you might have Pneumonia.",
+"It sounds like you may have Pneumonia based on your symptoms.",
+"Pneumonia could be a possibility with the symptoms you are describing.",
+"Your symptoms match those commonly associated with Pneumonia.",
+"I would suggest seeking medical attention to determine if you have Pneumonia."
+]
+},
+{
+"tag":"Skin infections",
+"patterns":[
+"redness in skin",
+"itching",	
+"pus",
+"dry skin",
+"rashes",
+"Skin infections",
+"skin infection"
+],
+"responses":[
+"It appears that you may have a skin infection. It is important to see a doctor for proper diagnosis and treatment.",
+"The symptoms you have described are similar to those of a skin infection. It is recommended to seek medical attention.",
+"Please visit a doctor for a proper evaluation and treatment of your skin infection."
+]
+},
+ {
+"tag": "Headache",
+"patterns": [
+"headache",
+"migraine",
+"head is paining",
+"head paining",
+"throbbing pain in head"
+],
+"responses": [
+"You should try to relax and drink plenty of water. If the headache persists, it is advisable to see a doctor.",
+"It seems like you have a headache. You can try to relax and drink water. If the headache continues, it's best to see a doctor.",
+"If you are experiencing a headache. You should try to relax and drink plenty of water. If the headache persists, it's best to see a doctor.",
+"A headache can be a symptom of stress, tension or dehydration. You should try to relax, drink water and see a doctor if the headache continues."
+]
+},
+{
+"tag": "Fatigue",
+"patterns": [
+"fatigue",
+"tiredness",
+"exhaustion"
+],
+"responses": [
+"You should try to get enough sleep, exercise regularly and avoid stress. If the fatigue persists, it is advisable to see a doctor.",
+"It seems like you are feeling fatigued. You should try to get enough sleep and exercise. If the fatigue continues, it's best to see a doctor.",
+"If you are feeling fatigued. You should try to get enough sleep, exercise regularly and avoid stress. If the fatigue continues, it's best to see a doctor.",
+"Fatigue can be caused by a variety of factors, including lack of sleep, overwork or stress. You should try to get enough sleep, exercise regularly and avoid stress. If the fatigue persists, it's best to see a doctor."
+]
+},
+{
+"tag": "Frequent Urination",
+"patterns": [
+"frequent urination",
+"need to pee often",
+"urinate frequently"
+],
+"responses": [
+"It is recommended that you see a doctor for proper diagnosis and treatment.",
+"Frequent urination can be caused by various factors. It is best to consult a medical professional to determine the underlying cause and appropriate treatment."
+]
+},
+{
+"tag": "Chest Pain",
+"patterns": [
+"chest pain",
+"chest is paining",
+"chest discomfort",
+"pain in chest"
+],
+"responses": [
+"Chest pain can be a symptom of several serious conditions such as heart attack, angina, or a lung problem. It is important to seek immediate medical attention if you are experiencing chest pain.",
+"Chest pain should never be ignored as it could be a sign of a serious condition. Please seek medical help immediately."
+]
+},
+{
+"tag": "Stiffness",
+"patterns": [
+"I am feeling stiff",
+"My body feels stiff",
+"I have stiffness in my joints",
+      "Stiffness",
+"Stiffness is bothering me"
+],
+"responses": [
+"Stiffness can be a sign of arthritis or other joint problems. It's best to see a doctor for a proper diagnosis and treatment.",
+"It's possible that your stiffness is due to a lack of physical activity. Try stretching or light exercise to improve flexibility.",
+"Stiffness can also be a side effect of certain medications. If you recently started taking a new medication, talk to your doctor about potential side effects.",
+"Heat therapy or a warm bath can also help relieve stiffness. Try soaking in a warm bath or using a heating pad for 20-30 minutes at a time."
+]
+},
+{
+"tag": "Abdominal Pain",
+"patterns": [
+"I have abdominal pain",
+"My stomch is paining",
+"My stomach hurts",
+"I am experiencing abdominal discomfort", 
+"Abdominal Pain",
+"Abdominal pain is bothering me"
+],
+"responses": [
+"Abdominal pain can be caused by a variety of things, including indigestion, gas, or even a urinary tract infection. Try over-the-counter pain relievers and see a doctor if symptoms persist.",
+"If your abdominal pain is severe or accompanied by vomiting, it's best to see a doctor for a proper diagnosis and treatment.",
+"Avoiding foods that cause gas, such as beans, broccoli, and cabbage, can help relieve abdominal pain caused by gas.",
+"If your abdominal pain is caused by constipation, try increasing your fiber intake and drinking plenty of water to help relieve symptoms."
+]
+},
+
+  {
+"tag": "Stuffy Nose",
+"patterns": [
+  "congested nose",
+  "Nose is stuffy",
+  "blocked nose",
+  "nasal congestion",
+  "Stuffy Nose",
+  "difficulty breathing through the nose"
+    ],
+"responses": [
+  "It sounds like you have a stuffy nose. You can try some household remedies like steam inhalation.However it's always best to see a doctor for proper diagnosis and treatment", 
+  "It sounds like you have a stuffy nose. You can try some household remedies like saline nasal spray.However it's always best to see a doctor for proper diagnosis and treatment",
+  "It sounds like you have a stuffy nose. See a doctor for help.",
+  "A stuffy nose can be caused by different things. Let's see a doctor together.",
+  "It seems you have a stuffy nose. Let's visit a doctor for proper care.",
+  "A stuffy nose can be a bother. Let's see a doctor for treatment.",
+  "You have a stuffy nose. Let's go to the doctor for a check-up."
+    ]
+  },
+  {
+  "tag": "Depression",
+  "patterns": [
+    "sadness",
+    "I am feeling sad",        
+    "appetite",               
+    "worthless",
+    "suicide",
+   "Depression",
+   "Depress",
+    "persistent sadness",
+    "feelings of worthlessness",
+    "thoughts of suicideko"
+      ],
+       "responses": [
+        "It sounds like you may be experiencing depression. I would recommend seeking help from a mental health professional.",
+        "Hi there, the symptoms you're describing are often seen in individuals with depression. It's important to seek support and treatment.",
+        "Depression can cause the symptoms you're mentioning. I suggest seeking help from a mental health professional.",
+        "The symptoms you've mentioned could indicate depression. It's important to seek treatment and support."
+      ]
+  },
+  {
+  "tag": "fever",
+      "patterns": [
+            "high body temperature",
+            "elevated temperature",
+            "feeling hot",
+            "feverish",
+            "fever",
+            "hot to the touch",
+            "fever symptoms"
+       ],
+      "responses": [
+            "Common causes of fever include viral infections, bacterial infections, inflammatory conditions, autoimmune disorders, certain medications, and vaccinations.",
+            "Some common symptoms of a fever include elevated body temperature, chills and shivering, sweating, headache, muscle aches, fatigue, and loss of appetite.",
+            "A fever is usually diagnosed by looking at symptoms, medical history, and a physical check-up. Tests like blood tests or imaging may also be done.",
+            "Treatment for a fever usually involves rest and hydration, as well as over-the-counter pain relievers to reduce symptoms.",
+            "A fever is a sign that the body is fighting an illness. It's a temporary rise in temperature.Fevers are usually a sign that the body is fighting an infection."
+          ]
+        },
+        {
+          "tag": "cough",
+          "patterns": [
+            "coughing",
+            "dry cough",
+            "wet cough",
+            "cough",
+            "persistent cough"
+          ],
+          "responses": [
+            "A cough is a common symptom that helps to clear your airways of mucus, phlegm, or irritants. Coughs can be either dry or wet.",
+            "Try taking a steamy shower to help relieve your cough ", "You should try drinking some warm liquids like tea or broth","try honey or lemon in hot water.",
+            "A dry cough is usually caused by a viral illness, such as the common cold, and doesn't produce mucus or phlegm. A wet cough produces mucus or phlegm.",
+            "If you have a persistent cough that lasts more than a week, it's a good idea to see a doctor to find out what's causing it and get appropriate treatment.",
+            "Drinking plenty of fluids and avoiding irritants, such as smoke and strong odors, can help to relieve coughing symptoms."
+          ]
+          },
+          {
+            "tag": "sore throat",
+            "patterns": [
+              "sore throat",
+              "Having sore throat",
+              "painful throat",
+              "throat paining",
+              "itchy throat",
+              "throat is itching",
+              "scratchy throat"
+            ],
+            "responses": [
+              
+              "You can try drinking plenty of fluids","You can try drinking gargle with salt water and avoid irritants such as smoke and strong odors.",
+              "Soothing teas, such as chamomile or licorice root tea, can also help relieve a sore throat.","you can try drinkinng Honey and lemon in warm water can also be soothing.",
+              "Steaming your face with a bowl of hot water and a towel can also help to relieve sore throat symptoms.",
+              "Always consult your doctor before trying any home remedies, especially if you have any underlying health conditions."
+            ]
+          }
+
+      ]
+}
